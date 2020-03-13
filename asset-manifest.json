@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/monicalaura/bookmarked/static/css/main.33b1fae1.chunk.css",
-    "main.js": "/monicalaura/bookmarked/static/js/main.ce9c9742.chunk.js",
-    "main.js.map": "/monicalaura/bookmarked/static/js/main.ce9c9742.chunk.js.map",
-    "runtime-main.js": "/monicalaura/bookmarked/static/js/runtime-main.330feb5f.js",
-    "runtime-main.js.map": "/monicalaura/bookmarked/static/js/runtime-main.330feb5f.js.map",
-    "static/js/2.ae654708.chunk.js": "/monicalaura/bookmarked/static/js/2.ae654708.chunk.js",
-    "static/js/2.ae654708.chunk.js.map": "/monicalaura/bookmarked/static/js/2.ae654708.chunk.js.map",
-    "index.html": "/monicalaura/bookmarked/index.html",
-    "precache-manifest.60510e15ad34e434eb6262c78f16e844.js": "/monicalaura/bookmarked/precache-manifest.60510e15ad34e434eb6262c78f16e844.js",
-    "service-worker.js": "/monicalaura/bookmarked/service-worker.js",
-    "static/css/main.33b1fae1.chunk.css.map": "/monicalaura/bookmarked/static/css/main.33b1fae1.chunk.css.map",
-    "static/js/2.ae654708.chunk.js.LICENSE.txt": "/monicalaura/bookmarked/static/js/2.ae654708.chunk.js.LICENSE.txt"
+    "main.css": "/bookmarked/static/css/main.33b1fae1.chunk.css",
+    "main.js": "/bookmarked/static/js/main.d2825651.chunk.js",
+    "main.js.map": "/bookmarked/static/js/main.d2825651.chunk.js.map",
+    "runtime-main.js": "/bookmarked/static/js/runtime-main.fbc7eaa7.js",
+    "runtime-main.js.map": "/bookmarked/static/js/runtime-main.fbc7eaa7.js.map",
+    "static/js/2.ae654708.chunk.js": "/bookmarked/static/js/2.ae654708.chunk.js",
+    "static/js/2.ae654708.chunk.js.map": "/bookmarked/static/js/2.ae654708.chunk.js.map",
+    "index.html": "/bookmarked/index.html",
+    "precache-manifest.0fb0dd1da983b3a2d7d8dcaefabd9da5.js": "/bookmarked/precache-manifest.0fb0dd1da983b3a2d7d8dcaefabd9da5.js",
+    "service-worker.js": "/bookmarked/service-worker.js",
+    "static/css/main.33b1fae1.chunk.css.map": "/bookmarked/static/css/main.33b1fae1.chunk.css.map",
+    "static/js/2.ae654708.chunk.js.LICENSE.txt": "/bookmarked/static/js/2.ae654708.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.330feb5f.js",
+    "static/js/runtime-main.fbc7eaa7.js",
     "static/js/2.ae654708.chunk.js",
     "static/css/main.33b1fae1.chunk.css",
-    "static/js/main.ce9c9742.chunk.js"
+    "static/js/main.d2825651.chunk.js"
   ]
 }
