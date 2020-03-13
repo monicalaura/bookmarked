@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Bookmarks from './components/Bookmarks';
+import Navbar from './components/Navbar';
+import ThemeContextProvider from './contexts/ThemeContext';
+import ThemeToggle from './components/ThemeToggle';
+import BookmarkContextProvider from './contexts/BookmarkContext';
+import BookmarkForm from './components/BookmarkForm';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeContextProvider>     
+      <BookmarkContextProvider>
+        <Navbar /> 
+        <Bookmarks /> 
+        <BookmarkForm />      
+        </BookmarkContextProvider> 
+        <ThemeToggle />       
+      </ThemeContextProvider>
     </div>
   );
 }

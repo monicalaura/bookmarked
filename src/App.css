@@ -2,37 +2,100 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* app styles */
+.App {
+  max-width: 400px;
+  width:100%;
+  margin: 1.8rem auto;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{ font-size:2rem}
+
+nav{
+  padding: 0.4rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a{
+  color: #003c96
+}
+
+nav ul {
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 0.8rem;
+}
+.bookmarks {
+  padding: 1rem;
+  margin:0;
+ 
+}
+.bookmarks ul{
+  padding: 0;
+  list-style-type: none;
+}
+.bookmarks li {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.6rem;
+  margin: 0.5rem auto;
+  border-radius: 0.2rem;
+}
+.bookmarks li:hover{
+ opacity:0.9;
+}
+
+.empty{
+  padding:3rem;
+  text-align:center;
+}
+
+.remove{
+  margin-left:2rem;
+  cursor:pointer;
+}
+
+form{
+ max-width:400px;
+ padding:0;
+}
+
+input[type= text]{
+  display:flex;
+  width: 96%;
+  padding:0.5rem;
+  border:none;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: content-box;
 }
 
-.App-link {
-  color: #61dafb;
+input[type=submit]{
+  border:none;
+  padding: 0.5rem 1.8rem;
+  cursor:pointer;
+  border: 1px solid  rgb(67, 79, 78)
+
+}
+input::placeholder{
+  color: rgb(67, 79, 78);
+  font-size:1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  background: rgb(67, 79, 78);
+  color: #F1F3F3;
+  padding: 0.5rem;
+  border-radius: 2px;
+  cursor:pointer;
+  margin-top: 1.5rem;
+}
+
+hr{
+  margin:0;
+  padding: 0;
+  border-top: 1px solid rgb(67, 79, 78);
 }
